@@ -1,15 +1,10 @@
 import React from "react";
+import Introduction from "../components/introduction.js";
 
 const Home = () => {
   return (
     <>
-      <div className="intro">
-        <h1>Ajibola Yekinni</h1>
-        <p>
-          Software Engineer
-          <br /> building Products with JavaScript and Python
-        </p>
-      </div>
+      <Introduction />
     </>
   );
 };
