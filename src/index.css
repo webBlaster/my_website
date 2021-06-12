@@ -2,9 +2,9 @@
 body {
   margin: 0;
   font-family: "Josefin Sans", sans-serif;
-  text-align: center;
-  background-color: black;
-  color: whitesmoke;
+  background-color: #5385c2;
+
+  color: black;
 }
 h1,
 h2,
@@ -13,26 +13,4 @@ h4,
 h5 {
   padding: 0;
   margin: 0;
-}
-
-.intro {
-  padding-top: 40vh;
-}
-.intro h1 {
-  font-size: 72px;
-  font-weight: bold;
-}
-.intro p {
-  font-size: 25.2px;
-  line-height: 1.5;
-  font-weight: 500;
-}
-
-@media screen and (max-width: 700px) {
-  .intro h1 {
-    font-size: 40px;
-  }
-  .intro p {
-    font-size: 16px;
-  }
 }
