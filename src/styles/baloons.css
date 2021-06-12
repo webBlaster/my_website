@@ -19,7 +19,7 @@
   height: 20px;
   background: rgba(96, 183, 199, 0.9);
   animation: animate 25s linear infinite;
-  bottom: calc(-150px - 40vh);
+  bottom: -20vh;
 }
 
 .circles li:nth-child(1) {
