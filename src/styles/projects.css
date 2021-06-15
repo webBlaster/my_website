@@ -1,0 +1,26 @@
+.projects {
+  padding: 3%;
+  min-height: 100vh;
+}
+
+.projects h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.projects .project-list .project {
+  background-color: #2b2b2b;
+  color: white;
+  border-radius: 5px;
+  margin: 50px auto;
+  padding: 5%;
+  height: 200px;
+  width: 80%;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.projects .project-list .project:hover {
+  background-color: #2b2b2bda;
+}
+/*# sourceMappingURL=projects.css.map */
