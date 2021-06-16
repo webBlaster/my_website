@@ -4,29 +4,36 @@
   display: flex;
   height: 100vh;
   justify-content: space-evenly;
-}
-.intro h1 {
-  font-size: 4.2rem;
-  font-weight: bold;
-}
-.intro p {
-  font-size: 25.2px;
-  line-height: 1.5;
-  font-weight: 500;
-}
-.intro img {
-  width: 35%;
-  padding: 0;
+  .about {
+    margin-left: 5%;
+    h1 {
+      font-size: 4.2rem;
+      font-weight: bold;
+      line-height: 1;
+    }
+    p {
+      font-size: 0.95rem;
+      line-height: 1.8rem;
+      font-weight: 500;
+    }
+    .elevator-pitch {
+      width: 50%;
+    }
+  }
 }
 
 @media screen and (max-width: 700px) {
-  .intro h1 {
-    font-size: 40px;
-  }
-  .intro p {
-    font-size: 16px;
-  }
-  .intro img {
-    display: none;
+  .intro {
+    .about {
+      h1 {
+        font-size: 40px;
+      }
+      p {
+        font-size: 16px;
+      }
+      .elevator-pitch {
+        width: 80%;
+      }
+    }
   }
 }

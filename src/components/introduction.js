@@ -1,5 +1,4 @@
 import React from "react";
-//import Keyboard from "../assets/keyboard.svg";
 import "../styles/introduction.css";
 
 const Introduction = () => {
@@ -12,6 +11,12 @@ const Introduction = () => {
             Software Engineer
             <br /> From Lagos Nigeria.
           </h1>
+          <p className="elevator-pitch">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text.
+            simply dummy text of the printing and typesetting industry. Lorem
+            Ipsum has been the industry's standard dummy text
+          </p>
         </div>
         <p></p>
       </div>
