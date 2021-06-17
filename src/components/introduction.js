@@ -12,10 +12,9 @@ const Introduction = () => {
             <br /> From Lagos Nigeria.
           </h1>
           <p className="elevator-pitch">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text.
-            simply dummy text of the printing and typesetting industry. Lorem
-            Ipsum has been the industry's standard dummy text
+            with over three years of experience developing for web and mobile
+            using technologies like React, Flask, Node and Express. I'm
+            passionate about building awesome experiences on the web and mobile
           </p>
         </div>
         <p></p>

@@ -26,8 +26,9 @@ const Projects = () => {
         <div className="project">
           <h5>#Lumnergy</h5>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
+            Lumnergy is a power solutions company that looks to tackle the power
+            problems faced by the everyday consumer and help them reach their
+            required power related goals at a reasonable cost.
           </p>
 
           <div className="technologies">
