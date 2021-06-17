@@ -14,9 +14,26 @@
       border-radius: 5px;
       margin: 50px auto;
       padding: 5%;
-      height: 200px;
+      min-height: 250px;
       width: 80%;
       transition: 0.4s;
+      a {
+        font-size: 0.9rem;
+        color: #fff;
+      }
+      .technologies {
+        display: flex;
+        cursor: pointer;
+        margin-bottom: 10px;
+        min-width: 50%;
+        p {
+          margin-right: 2%;
+          border-radius: 2.5px;
+          background-color: black;
+          padding: 5px;
+          font-size: 0.6rem;
+        }
+      }
     }
     .project:hover {
       background-color: #2b2b2be1;

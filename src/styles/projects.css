@@ -16,10 +16,32 @@
   border-radius: 5px;
   margin: 50px auto;
   padding: 5%;
-  height: 200px;
+  min-height: 250px;
   width: 80%;
   -webkit-transition: 0.4s;
   transition: 0.4s;
+}
+
+.projects .project-list .project a {
+  font-size: 0.9rem;
+  color: #fff;
+}
+
+.projects .project-list .project .technologies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  margin-bottom: 10px;
+  min-width: 50%;
+}
+
+.projects .project-list .project .technologies p {
+  margin-right: 2%;
+  border-radius: 2.5px;
+  background-color: black;
+  padding: 5px;
+  font-size: 0.6rem;
 }
 
 .projects .project-list .project:hover {
