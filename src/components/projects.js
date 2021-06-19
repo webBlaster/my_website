@@ -11,7 +11,6 @@ const projectlist = [
       "Postgres",
       "Elasticsearch",
       "Flask",
-      "Sqlalchemy",
       "React",
       "Redux",
     ],
@@ -35,7 +34,7 @@ const projectlist = [
   {
     name: "#Match Reveal",
     description: `Web app that list hospitals using geolocation and provide
-  information about them within a radius of yo[ur current location`,
+  information about them within a radius of your current location`,
     technologies: ["Mysql", "PHP", "Angularjs"],
     url: "https://matchreveal.herokuapp.com",
   },

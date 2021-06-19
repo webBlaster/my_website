@@ -6,7 +6,7 @@ const Introduction = () => {
     <>
       <div className="intro">
         <div className="about">
-          <p>Hi, I'm Ajibola Yekinni</p>
+          <p className="greet">Hi, I'm Ajibola Yekinni</p>
           <h1>
             Software Engineer
             <br /> From Lagos Nigeria.
