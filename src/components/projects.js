@@ -7,7 +7,14 @@ const projectlist = [
     description: ` A web app that allows content creators receive support from
     consumers, friends & others in form of small donations, shares etc.
     (Its similar to patron)`,
-    technologies: ["Postgres", "Elasticsearch", "Flask", "React", "Redux"],
+    technologies: [
+      "Postgres",
+      "Elasticsearch",
+      "Flask",
+      "Sqlalchemy",
+      "React",
+      "Redux",
+    ],
     url: "https://fancrop.com",
   },
   {
@@ -25,7 +32,15 @@ const projectlist = [
     technologies: ["Postgres", "Node", "Express", "React", "Redux"],
     url: "https://aeydar.com",
   },
+  {
+    name: "#Match Reveal",
+    description: `Web app that list hospitals using geolocation and provide
+  information about them within a radius of yo[ur current location`,
+    technologies: ["Mysql", "PHP", "Angularjs"],
+    url: "https://matchreveal.herokuapp.com",
+  },
 ];
+
 const Projects = () => {
   return (
     <div className="projects">
