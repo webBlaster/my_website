@@ -17,7 +17,7 @@ afterEach(() => {
   container = null;
 });
 
-it("check if it renders", () => {
+it("check if <Introduction /> renders text", () => {
   act(() => {
     render(<Introduction />, container);
   });
