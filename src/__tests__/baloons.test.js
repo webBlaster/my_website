@@ -1,7 +1,7 @@
 import React from "react";
 import { render, unmountComponentAtNode } from "react-dom";
 import { act } from "react-dom/test-utils";
-import Introduction from "../components/introduction";
+import Baloons from "../components/baloons.js";
 
 let container = null;
 beforeEach(() => {
@@ -17,11 +17,8 @@ afterEach(() => {
   container = null;
 });
 
-it("check if <Introduction /> renders text", () => {
+it("check if <Baloons /> renders", () => {
   act(() => {
-    render(<Introduction />, container);
+    render(<Baloons />, container);
   });
-  expect(container.querySelector(".greet").textContent).toBe(
-    "Hi, I'm Ajibola Yekinni"
-  );
 });
