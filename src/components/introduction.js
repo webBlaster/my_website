@@ -4,7 +4,7 @@ import "../styles/introduction.css";
 const Introduction = () => {
   return (
     <>
-      <div className="intro">
+      <div className="intro animate__animated animate__fadeInLeft">
         <div className="about">
           <p className="greet">Hi, I'm Ajibola Yekinni</p>
           <h1>
