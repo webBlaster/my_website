@@ -6,14 +6,8 @@ const projectlist = [
     name: "#Fancrop",
     description: ` A web app that allows content creators receive support from
     consumers, friends & others in form of small donations, shares etc.
-    (Its similar to patron)`,
-    technologies: [
-      "Postgres",
-      "Elasticsearch",
-      "Flask",
-      "React",
-      "Redux",
-    ],
+    (Its similar to patreon)`,
+    technologies: ["Postgres", "Elasticsearch", "Flask", "React", "Redux"],
     url: "https://fancrop.com",
   },
   {
@@ -47,13 +41,13 @@ const Projects = () => {
       <span className="project-list">
         {projectlist.map((project) => {
           return (
-            <div className="project">
+            <div className="project" key={project.name}>
               <h5>{project.name}</h5>
               <p>{project.description}</p>
 
               <div className="technologies">
                 {project.technologies.map((tech) => {
-                  return <p>{tech}</p>;
+                  return <p key={tech}>{tech}</p>;
                 })}
               </div>
               <a href={project.url}>See Live Project</a>
