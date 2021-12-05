@@ -3,6 +3,20 @@ import "../styles/projects.css";
 
 const projectlist = [
   {
+    name: "#Bundans",
+    description: ` Scale with simple but powerful invoices that
+    turn customers into patrons.`,
+    technologies: [
+      "React",
+      "Redux",
+      "Node",
+      "Postgres",
+      "Express",
+      "Sequelize",
+    ],
+    url: "https://bundans.com",
+  },
+  {
     name: "#Fancrop",
     description: ` A web app that allows content creators receive support from
     consumers, friends & others in form of small donations, shares etc.
