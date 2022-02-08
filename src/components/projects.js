@@ -64,7 +64,9 @@ const Projects = () => {
                   return <p key={tech}>{tech}</p>;
                 })}
               </div>
-              <a href={project.url}>See Live Project</a>
+              <a target="_blank" rel="noreferrer" href={project.url}>
+                See Live Project
+              </a>
             </div>
           );
         })}
