@@ -12,9 +12,8 @@ const Introduction = () => {
             <br /> From Lagos Nigeria.
           </h1>
           <p className="elevator-pitch">
-            with over three years of experience developing for web and mobile
-            using technologies like React, Flask, Node and Express. I'm
-            passionate about building awesome experiences on the web and mobile
+            I'm passionate about building highly accessible and scalable
+            software for the web
           </p>
         </div>
         <p></p>

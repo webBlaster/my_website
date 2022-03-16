@@ -14,7 +14,14 @@ const projectlist = [
       "Express",
       "Sequelize",
     ],
-    url: "https://bundans.com",
+    url: "https://pealeap.netlify.app",
+  },
+  {
+    name: "#Aeydar",
+    description: `Web app that list hospitals using geolocation and provide
+  information about them within a radius of your current location`,
+    technologies: ["Postgres", "Node", "Express", "React", "Redux"],
+    url: "https://aeydar.com",
   },
   {
     name: "#Fancrop",
@@ -23,21 +30,6 @@ const projectlist = [
     (Its similar to patreon)`,
     technologies: ["Postgres", "Elasticsearch", "Flask", "React", "Redux"],
     url: "https://fancrop.com",
-  },
-  {
-    name: "#Lumnergy",
-    description: ` Lumnergy is a power solutions company that looks to tackle the power
-  problems faced by the everyday consumer and help them reach their
-  required power related goals at a reasonable cost.`,
-    technologies: ["Postgres", "React", "Redux"],
-    url: "https://lumnergy.netlify.com",
-  },
-  {
-    name: "#Aeydar",
-    description: `Web app that list hospitals using geolocation and provide
-  information about them within a radius of your current location`,
-    technologies: ["Postgres", "Node", "Express", "React", "Redux"],
-    url: "https://aeydar.com",
   },
   {
     name: "#Match Reveal",
