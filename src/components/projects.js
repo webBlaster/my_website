@@ -6,21 +6,14 @@ const projectlist = [
     name: "#Bundans",
     description: ` Scale with simple but powerful invoices that
     turn customers into patrons.`,
-    technologies: [
-      "React",
-      "Redux",
-      "Node",
-      "Postgres",
-      "Express",
-      "Sequelize",
-    ],
+    technologies: ["React", "Redux", "Postgres", "Express", "Sequelize"],
     url: "https://pealeap.netlify.app",
   },
   {
     name: "#Aeydar",
     description: `Web app that list hospitals using geolocation and provide
   information about them within a radius of your current location`,
-    technologies: ["Postgres", "Node", "Express", "React", "Redux"],
+    technologies: ["Postgres", "Express", "React", "Redux"],
     url: "https://aeydar.com",
   },
   {
