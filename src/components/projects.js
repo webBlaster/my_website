@@ -26,8 +26,7 @@ const projectlist = [
   },
   {
     name: "#Match Reveal",
-    description: `Web app that list hospitals using geolocation and provide
-  information about them within a radius of your current location`,
+    description: `A subscription based sport prediction software as a service`,
     technologies: ["Mysql", "PHP", "Angularjs"],
     url: "https://matchreveal.herokuapp.com",
   },
