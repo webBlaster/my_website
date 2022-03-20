@@ -30,6 +30,12 @@ const projectlist = [
     technologies: ["Mysql", "PHP", "Angularjs"],
     url: "https://matchreveal.herokuapp.com",
   },
+  {
+    name: "#Match Reveal",
+    description: `web app for diagnosing symptoms and returning probable causes`,
+    technologies: ["React", "Express", "Mongodb", "Elasticsearch", "Redis"],
+    url: "https://symp-diagnosis.netlify.app/",
+  },
 ];
 
 const Projects = () => {
