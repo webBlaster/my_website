@@ -31,7 +31,7 @@ const projectlist = [
     url: "https://matchreveal.herokuapp.com",
   },
   {
-    name: "#Match Reveal",
+    name: "#Symptom Diagnosis",
     description: `web app for diagnosing symptoms and returning probable causes`,
     technologies: ["React", "Express", "Mongodb", "Elasticsearch", "Redis"],
     url: "https://symp-diagnosis.netlify.app/",
