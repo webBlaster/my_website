@@ -1,29 +1,33 @@
 import React from "react";
+import "../styles/contact.css";
 
 const Contact = () => {
   return (
-    /*<ul className="icons">
-      <li>
-        <a href="https://www.linkedin.com/in/ajibola-yekinni-524056149/">
-          <img
-            src="./pictures/linkedin.svg"
-            alt="not showing"
-            className="img-responsive"
-          />
+    <ul className="socials">
+      <li className="third-list">
+        <a
+          rel="noreferrer"
+          href="https://www.linkedin.com/in/ajibola-yekinni-524056149/"
+          target="_blank"
+        >
+          Linkedin
         </a>
       </li>
 
       <li className="third-list">
-        <a href="https://github.com/webBlaster">
-          <img
-            src="./pictures/githubb.png"
-            alt="not showing"
-            className="img-responsive third-icon"
-          />
+        <a
+          rel="noreferrer"
+          href="https://github.com/webBlaster"
+          target="_blank"
+        >
+          Github
         </a>
       </li>
-    </ul>*/
-    <></>
+
+      <li className="third-list">
+        <a href="mailto:yekinnijibola@gmail.com">Email</a>
+      </li>
+    </ul>
   );
 };
 
