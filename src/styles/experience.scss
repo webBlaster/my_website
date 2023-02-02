@@ -1,0 +1,46 @@
+.experiences {
+    padding: 3%;
+    position: relative;
+    z-index: 10;
+    min-height: 100vh;
+    h1 {
+      font-size: 30px;
+      text-align: center;
+    }
+    .experience-list {
+      .experience {
+        background-color: #2b2b2b00;
+        color: white;
+        margin:0 auto;
+        padding: 5% 0;
+        width: 80%;
+        transition: 0.4s;
+        a {
+          font-size: 0.9rem;
+          color: #fff;
+        }
+        .technologies {
+          display: flex;
+          cursor: pointer;
+          margin-bottom: 10px;
+          min-width: 50%;
+          p {
+            margin-right: 2%;
+            border-radius: 2.5px;
+            background-color: black;
+            padding: 5px;
+            font-size: 0.6rem;
+          }
+        }
+      }
+    }
+  }
+  
+  @media screen and (min-width: 1000px) {
+    .project-list {
+      display: grid;
+      align-items: center;
+      grid-template-columns: 50% 50%;
+    }
+  }
+  
