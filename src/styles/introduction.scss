@@ -2,11 +2,12 @@
   position: relative;
   align-items: center;
   display: flex;
-  height: 100vh;
+  
   z-index: 10;
   justify-content: space-evenly;
   .about {
     margin-left: 5%;
+    margin-top: 5%;
     h1 {
       font-size: 4.2rem;
       font-weight: bold;
@@ -18,7 +19,7 @@
       font-weight: 500;
     }
     .elevator-pitch {
-      width: 50%;
+      width: 70%;
     }
   }
 }
@@ -33,7 +34,7 @@
         font-size: 16px;
       }
       .elevator-pitch {
-        width: 80%;
+        width: 90%;
       }
     }
   }

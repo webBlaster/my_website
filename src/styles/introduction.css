@@ -6,7 +6,6 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 100vh;
   z-index: 10;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
@@ -15,6 +14,7 @@
 
 .intro .about {
   margin-left: 5%;
+  margin-top: 5%;
 }
 
 .intro .about h1 {
@@ -30,7 +30,7 @@
 }
 
 .intro .about .elevator-pitch {
-  width: 50%;
+  width: 70%;
 }
 
 @media screen and (max-width: 700px) {
@@ -41,7 +41,7 @@
     font-size: 16px;
   }
   .intro .about .elevator-pitch {
-    width: 80%;
+    width: 90%;
   }
 }
 /*# sourceMappingURL=introduction.css.map */

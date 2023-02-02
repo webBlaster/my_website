@@ -1,14 +1,14 @@
 import React from "react";
-import Introduction from "../components/introduction.js";
-import Projects from "../components/projects.js";
 import Baloons from "../components/baloons.js";
 import Contact from "../components/contact.js";
+import Experience from "../components/experience.js";
+import Introduction from "../components/introduction.js";
 
 const Home = () => {
   return (
     <>
       <Introduction />
-      <Projects />
+      <Experience />
       <Contact />
       <Baloons />
     </>
