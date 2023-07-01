@@ -1,34 +1,24 @@
 .intro {
   position: relative;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  align-items: center;
   display: flex;
   z-index: 10;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  justify-content: space-evenly;
 }
-
 .intro .about {
   margin-left: 5%;
   margin-top: 5%;
 }
-
 .intro .about h1 {
   font-size: 4.2rem;
   font-weight: bold;
   line-height: 1;
 }
-
 .intro .about p {
   font-size: 0.95rem;
   line-height: 1.8rem;
   font-weight: 500;
 }
-
 .intro .about .elevator-pitch {
   width: 70%;
 }
@@ -43,5 +33,4 @@
   .intro .about .elevator-pitch {
     width: 90%;
   }
-}
-/*# sourceMappingURL=introduction.css.map */
+}/*# sourceMappingURL=introduction.css.map */

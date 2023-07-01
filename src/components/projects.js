@@ -17,24 +17,16 @@ const projectlist = [
     url: "https://aeydar.com",
   },
   {
-    name: "#Fancrop",
-    description: ` A web app that allows content creators receive support from
-    consumers, friends & others in form of small donations, shares etc.
-    (Its similar to patreon)`,
-    technologies: ["Postgres", "Elasticsearch", "Flask", "React", "Redux"],
-    url: "https://fancrop.com",
+    name: "#WebVr Demo",
+    description: ` A virtual reality demo to showcase how objects can be viewed in vr`,
+    technologies: ["Html", "javaScript", "Aframe"],
+    url: "https://webblaster.github.io/demo_vr",
   },
   {
-    name: "#Match Reveal",
-    description: `A subscription based sport prediction software as a service`,
-    technologies: ["Mysql", "PHP", "Angularjs"],
-    url: "https://matchreveal.herokuapp.com",
-  },
-  {
-    name: "#Symptom Diagnosis",
-    description: `web app for diagnosing symptoms and returning probable causes`,
-    technologies: ["React", "Express", "Mongodb", "Elasticsearch", "Redis"],
-    url: "https://symp-diagnosis.netlify.app/",
+    name: "#Spendbox",
+    description: `Software infrastructure for small and medium businesses`,
+    technologies: ["React", "Redux", "Express", "Sequelize", "Postgres", "AWS"],
+    url: "https://spendbox.netlify.app",
   },
 ];
 
