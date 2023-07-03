@@ -3,18 +3,18 @@ import "../styles/projects.css";
 
 const projectlist = [
   {
+    name: "#Aeydar",
+    description: `Web app that list hospitals using geolocation and provide
+  information about them within a radius of your current location`,
+    technologies: ["Postgres", "Express", "React", "Redux"],
+    url: "https://aeydar.netlify.app",
+  },
+  {
     name: "#Bundans",
     description: ` Scale with simple but powerful invoices that
     turn customers into patrons.`,
     technologies: ["React", "Redux", "Postgres", "Express", "Sequelize"],
     url: "https://pealeap.netlify.app",
-  },
-  {
-    name: "#Aeydar",
-    description: `Web app that list hospitals using geolocation and provide
-  information about them within a radius of your current location`,
-    technologies: ["Postgres", "Express", "React", "Redux"],
-    url: "https://aeydar.com",
   },
   {
     name: "#WebVr Demo",
