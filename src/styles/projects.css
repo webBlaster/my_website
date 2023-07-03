@@ -9,10 +9,15 @@
   text-align: center;
 }
 .projects .project-list .project {
-  background-color: rgba(43, 43, 43, 0);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  background-color: rgba(0, 0, 0, 0.309);
+  cursor: pointer;
   color: white;
-  border-radius: 2px;
-  border: 1px solid whitesmoke;
+  border-radius: 4px;
   margin: 50px auto;
   padding: 5%;
   min-height: 250px;
@@ -35,6 +40,13 @@
   background-color: black;
   padding: 5px;
   font-size: 0.6rem;
+}
+.projects .project-list .project:focus {
+  outline: none !important;
+}
+.projects .project-list .project:hover {
+  background-color: black;
+  width: 81%;
 }
 
 @media screen and (min-width: 1000px) {
