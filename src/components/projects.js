@@ -6,7 +6,7 @@ const projectlist = [
     name: "#Aeydar",
     description: `Web app that list hospitals using geolocation and provide
   information about them within a radius of your current location`,
-    technologies: ["Postgres", "Express", "React", "Redux"],
+    technologies: ["Postgres", "Express", "React", "Redux", "serverless"],
     url: "https://aeydar.netlify.app",
   },
   {
@@ -14,7 +14,7 @@ const projectlist = [
     description: ` Scale with simple but powerful invoices that
     turn customers into patrons.`,
     technologies: ["React", "Redux", "Postgres", "Express", "Sequelize"],
-    url: "https://pealeap.netlify.app",
+    url: "https://bundans.netlify.app",
   },
   {
     name: "#WebVr Demo",
