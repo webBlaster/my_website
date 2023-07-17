@@ -4,14 +4,13 @@ import "../styles/projects.css";
 const projectlist = [
   {
     name: "#Aeydar",
-    description: `Web app that list hospitals using geolocation and provide
-  information about them within a radius of your current location`,
+    description: `Find healthcare closest to you`,
     technologies: ["Postgres", "Express", "React", "Redux", "serverless"],
     url: "https://aeydar.netlify.app",
   },
   {
     name: "#Bundans",
-    description: ` Scale with simple but powerful invoices that
+    description: ` Scale small medium size businesses with simple but powerful invoices that
     turn customers into patrons.`,
     technologies: ["React", "Redux", "Postgres", "Express", "Sequelize"],
     url: "https://bundans.netlify.app",
@@ -26,7 +25,7 @@ const projectlist = [
     name: "#Spendbox",
     description: `Software infrastructure for small and medium businesses`,
     technologies: ["React", "Redux", "Express", "Sequelize", "Postgres", "AWS"],
-    url: "https://spendbox.netlify.app",
+    url: "https://spendbox.ng",
   },
 ];
 
