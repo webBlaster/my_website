@@ -1,30 +1,46 @@
 import React from "react";
 import "../styles/projects.css";
+import aeydar from "../assets/aeydar.png";
+import bundans from "../assets/bundans.png";
+import hearty from "../assets/hearty.png";
+import vr from "../assets/vr.png";
+import spendbox from "../assets/spendbox.png";
 
 const projectlist = [
   {
-    name: "#Aeydar",
+    name: "Aeydar",
+    image: aeydar,
     description: `Find healthcare closest to you`,
-    technologies: ["Postgres", "Express", "React", "Redux", "serverless"],
+    technologies: [],
     url: "https://aeydar.netlify.app",
   },
   {
-    name: "#Bundans",
+    name: "Bundans",
+    image: bundans,
     description: ` Scale small medium size businesses with simple but powerful invoices that
     turn customers into patrons.`,
-    technologies: ["React", "Redux", "Postgres", "Express", "Sequelize"],
+    technologies: [],
     url: "https://bundans.netlify.app",
   },
   {
-    name: "#WebVr Demo",
+    name: "WebVr Demo",
+    image: vr,
     description: ` A virtual reality demo to showcase how objects can be viewed in vr`,
-    technologies: ["Html", "javaScript", "Aframe"],
+    technologies: [],
     url: "https://webblaster.github.io/demo_vr",
   },
   {
-    name: "#Spendbox",
-    description: `Software infrastructure for small and medium businesses`,
-    technologies: ["React", "Redux", "Express", "Sequelize", "Postgres", "AWS"],
+    name: "The Hearty Project",
+    image: hearty,
+    description: `A project aimed at filling gaps in hypertension management based on the patients unique needs as shown by the collated data.`,
+    technologies: [],
+    url: "https://webblaster.github.io/TheHeartyProject/",
+  },
+  {
+    name: "Spendbox",
+    image: spendbox,
+    description: `Build a network of loyal and valuable customers`,
+    technologies: [],
     url: "https://spendbox.ng",
   },
 ];
@@ -38,6 +54,7 @@ const Projects = () => {
           return (
             <div className="project" key={project.name}>
               <h5>{project.name}</h5>
+              <img src={project.image} alt={`${project.name}`} />
               <p>{project.description}</p>
 
               <div className="technologies">
@@ -46,7 +63,7 @@ const Projects = () => {
                 })}
               </div>
               <a target="_blank" rel="noreferrer" href={project.url}>
-                See Live Project
+                See Project
               </a>
             </div>
           );

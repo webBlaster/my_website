@@ -12,11 +12,9 @@ const Introduction = () => {
             <br /> From Lagos Nigeria.
           </h1>
           <p className="elevator-pitch">
-            I am a software engineer with over 4 years of experience,with
-            proficiency in JavaScript and its related tooling. I am also
-            comfortable with Python, which adds versatility to my skill set. I
-            have a good understanding of modern development processes and tools
-            and I am always keeping up with the latest technology.
+            with over 5 years of experience, highly proficient in JavaScript and
+            its tooling,I have solid understanding of modern development
+            processes and tools, solid communication and collaboration skills.
           </p>
         </div>
         <p></p>
