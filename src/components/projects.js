@@ -4,9 +4,16 @@ import aeydar from "../assets/aeydar.png";
 import bundans from "../assets/bundans.png";
 import hearty from "../assets/hearty.png";
 import vr from "../assets/vr.png";
-import spendbox from "../assets/spendbox.png";
+import path from "../assets/path.png";
 
 const projectlist = [
+  {
+    name: "Path",
+    image: path,
+    description: `Build a network of loyal and valuable customers`,
+    technologies: [],
+    url: "https://path.ng",
+  },
   {
     name: "Aeydar",
     image: aeydar,
@@ -35,13 +42,6 @@ const projectlist = [
     description: `A project aimed at filling gaps in hypertension management based on the patients unique needs as shown by the collated data.`,
     technologies: [],
     url: "https://webblaster.github.io/TheHeartyProject/",
-  },
-  {
-    name: "Spendbox",
-    image: spendbox,
-    description: `Build a network of loyal and valuable customers`,
-    technologies: [],
-    url: "https://spendbox.ng",
   },
 ];
 

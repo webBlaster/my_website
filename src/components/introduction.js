@@ -12,9 +12,9 @@ const Introduction = () => {
             <br /> From Lagos Nigeria.
           </h1>
           <p className="elevator-pitch">
-            with over 5 years of experience, highly proficient in JavaScript and
-            its tooling,I have solid understanding of modern development
-            processes and tools, solid communication and collaboration skills.
+            with extensive experience developing robust software solutions,
+            highly proficient in JavaScript(TypeScript) and its tooling, team
+            player with solid collaboration and communication skills
           </p>
         </div>
         <p></p>
