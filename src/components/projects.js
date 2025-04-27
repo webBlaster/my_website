@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/projects.css";
 import aeydar from "../assets/aeydar.png";
 import bundans from "../assets/bundans.png";
-import hearty from "../assets/hearty.png";
+//import hearty from "../assets/hearty.png";
 import vr from "../assets/vr.png";
 import path from "../assets/path.png";
 
@@ -35,13 +35,6 @@ const projectlist = [
     description: ` A virtual reality demo to showcase how objects can be viewed in vr`,
     technologies: [],
     url: "https://webblaster.github.io/demo_vr",
-  },
-  {
-    name: "The Hearty Project",
-    image: hearty,
-    description: `A project aimed at filling gaps in hypertension management based on the patients unique needs as shown by the collated data.`,
-    technologies: [],
-    url: "https://webblaster.github.io/TheHeartyProject/",
   },
 ];
 

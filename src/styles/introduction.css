@@ -5,6 +5,41 @@
   z-index: 10;
   justify-content: space-evenly;
 }
+.intro .social-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.intro .social-icons a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  transition: 0.3s;
+}
+.intro .social-icons a:hover {
+  transform: scale(1.2);
+  color: #f0f0f0;
+}
+.intro .social-icons .social-icon {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 10px;
+  transition: 0.3s;
+}
+.intro .social-icons .social-icon:hover {
+  transform: scale(1.2);
+  color: #f0f0f0;
+}
+.intro .social-icons .social-icon:hover {
+  transform: scale(1.2);
+  color: #f0f0f0;
+}
+.intro .social-icons .social-icon:focus {
+  outline: none !important;
+}
 .intro .about {
   margin-left: 5%;
   margin-top: 5%;

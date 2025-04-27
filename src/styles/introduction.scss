@@ -2,9 +2,46 @@
   position: relative;
   align-items: center;
   display: flex;
-  
+
   z-index: 10;
   justify-content: space-evenly;
+
+  .social-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.5rem;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      transition: 0.3s;
+      &:hover {
+        transform: scale(1.2);
+        color: #f0f0f0;
+      }
+    }
+    .social-icon {
+      width: 30px;
+      height: 30px;
+      margin-bottom: 10px;
+      transition: 0.3s;
+      &:hover {
+        transform: scale(1.2);
+        color: #f0f0f0;
+      }
+    }
+    .social-icon:hover {
+      transform: scale(1.2);
+      color: #f0f0f0;
+    }
+    .social-icon:focus {
+      outline: none !important;
+    }
+  }
   .about {
     margin-left: 5%;
     margin-top: 5%;

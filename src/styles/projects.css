@@ -8,13 +8,16 @@
   font-size: 20px;
   text-align: center;
 }
+.projects h5 {
+  margin-bottom: 20px;
+}
 .projects .project-list .project {
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
-  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.222);
   cursor: pointer;
   color: white;
   border-radius: 4px;
@@ -49,13 +52,13 @@
   outline: none !important;
 }
 .projects .project-list .project:hover {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.592);
   width: 81%;
 }
 
 @media screen and (min-width: 1000px) {
   .projects h1 {
-    font-size: 50px;
+    font-size: 20px;
   }
   .project-list {
     display: grid;
