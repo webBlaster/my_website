@@ -13,3 +13,8 @@ h5 {
   padding: 0;
   margin: 0;
 }
+
+.animate-on-scroll {
+  opacity: 0;
+  visibility: hidden;
+}

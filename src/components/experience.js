@@ -7,43 +7,34 @@ const Experience = () => {
       name: "Mirapayments",
       role: "Frontend Engineer",
       summary: ``,
-      technologies: ["React", "Redux", "Jest", "Cypress", "AWS", "Gitlab"],
     },
     {
       name: "Aeydar",
       role: "JavaScript Engineer",
       summary: ``,
-      technologies: ["React", "Redux", "Node.js", "Postgres", "Github", "GCP"],
     },
     {
       name: "Goshen Point Diagnostics",
       role: "JavaScript Engineer",
       summary: ``,
-      technologies: ["Postgres", "Elasticsearch", "Flask", "React", "Redux"],
     },
     {
       name: "Unigold",
       role: "Backend Engineer",
       summary: ``,
-      technologies: ["Node.js", "Express", "Mongodb", "Github", "Heroku"],
     },
   ];
   return (
-    <div className="experiences">
-      <h1>Experience</h1>
+    <div className="experiences animate-on-scroll animate__animated">
+      <h1>Work Experience</h1>
       <span className="experience-list">
         {experienceList.map((experience) => {
           return (
             <div className="experience" key={experience?.name}>
-              <h5>{experience?.name}</h5>
-              <h4>{experience?.role}</h4>
+              <h4>{experience?.name}</h4>
+              <h5>{experience?.role}</h5>
               <p>{experience?.summary}</p>
 
-              <div className="technologies">
-                {experience.technologies.map((tech) => {
-                  return <p key={tech}>{tech}</p>;
-                })}
-              </div>
               {/* <hr /> */}
             </div>
           );

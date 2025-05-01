@@ -1,18 +1,18 @@
 import React from "react";
 import "../styles/projects.css";
 import aeydar from "../assets/aeydar.png";
-import bundans from "../assets/bundans.png";
-//import hearty from "../assets/hearty.png";
 import vr from "../assets/vr.png";
-import path from "../assets/path.png";
+import syndicate from "../assets/syndicatebio.jpeg";
+import glomehealth from "../assets/glomehealth.jpeg";
+import resonna from "../assets/resonna.jpeg";
 
 const projectlist = [
   {
-    name: "Path",
-    image: path,
-    description: `Build a network of loyal and valuable customers`,
+    name: "SyndicateBio Dashboard",
+    image: syndicate,
+    description: `Dashboard for SyndicateBio, to automate and manage processes for Doctors, Test Centers, Admins and Patients.`,
     technologies: [],
-    url: "https://path.ng",
+    url: "https://directbysb-dashboard-xeuljowsha-ue.a.run.app/",
   },
   {
     name: "Aeydar",
@@ -22,15 +22,22 @@ const projectlist = [
     url: "https://aeydar.netlify.app",
   },
   {
-    name: "Bundans",
-    image: bundans,
-    description: ` Scale small medium size businesses with simple but powerful invoices that
-    turn customers into patrons.`,
+    name: "Resonna",
+    image: resonna,
+    description: `Information website for investors and clients of Resonna`,
     technologies: [],
-    url: "https://bundans.netlify.app",
+    url: "https://resonna.com",
   },
   {
-    name: "WebVr Demo",
+    name: "Glome Health",
+    image: glomehealth,
+    description: `Landing page for Glome Health`,
+    technologies: [],
+    url: "https://glome-staging.netlify.app/",
+  },
+
+  {
+    name: "WebVr Experience",
     image: vr,
     description: ` A virtual reality demo to showcase how objects can be viewed in vr`,
     technologies: [],
@@ -40,7 +47,7 @@ const projectlist = [
 
 const Projects = () => {
   return (
-    <div className="projects">
+    <div className="projects animate-on-scroll animate__animated">
       <h1>Projects</h1>
       <span className="project-list">
         {projectlist.map((project) => {

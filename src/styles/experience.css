@@ -5,14 +5,14 @@
   min-height: 100vh;
 }
 .experiences h1 {
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
 }
 .experiences .experience-list .experience {
   background-color: rgba(43, 43, 43, 0);
   color: white;
   margin: 0 auto;
-  padding: 5% 0;
+  padding: 5%;
   width: 80%;
   transition: 0.4s;
 }
@@ -32,12 +32,4 @@
   background-color: black;
   padding: 5px;
   font-size: 0.6rem;
-}
-
-@media screen and (min-width: 1000px) {
-  .project-list {
-    display: grid;
-    align-items: center;
-    grid-template-columns: 50% 50%;
-  }
 }/*# sourceMappingURL=experience.css.map */
