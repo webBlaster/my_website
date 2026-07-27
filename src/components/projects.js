@@ -2,7 +2,6 @@ import React, { useEffect, useRef } from "react";
 import "../styles/projects.css";
 import aeydar from "../assets/aeydar.png";
 import vr from "../assets/vr.png";
-import syndicate from "../assets/syndicatebio.jpeg";
 import glomehealth from "../assets/glomehealth.jpeg";
 import towncryer from "../assets/towncryer.jpg";
 import healthzone from "../assets/healthzoneafrica.jpg";
