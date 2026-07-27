@@ -1,0 +1,85 @@
+.writing {
+  padding: 5% 4%;
+  position: relative;
+  z-index: 10;
+  min-height: 80vh;
+  text-align: center;
+}
+.writing-copy {
+  max-width: 700px;
+  margin: 0 auto 2rem;
+}
+.writing h1 {
+  font-size: 26px;
+  margin-bottom: 1rem;
+}
+.writing p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.85);
+}
+.writing-cards {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 2rem auto;
+  max-width: 1200px;
+}
+.writing-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 20px;
+  padding: 1.75rem;
+  min-width: 260px;
+  max-width: 360px;
+  flex: 1 1 260px;
+  color: #fff;
+  transition:
+    transform 0.25s ease,
+    background-color 0.25s ease;
+}
+.writing-card:hover {
+  transform: translateY(-6px);
+  background-color: rgba(255, 255, 255, 0.08);
+}
+.writing-card h5 {
+  margin-bottom: 1rem;
+  font-size: 1.05rem;
+}
+.writing-card p {
+  font-size: 0.95rem;
+  line-height: 1.75;
+}
+.writing-cta {
+  display: inline-block;
+  margin-top: 1.75rem;
+  padding: 0.95rem 1.7rem;
+  background-color: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 999px;
+  color: #fff;
+  text-decoration: none;
+  transition:
+    background-color 0.25s ease,
+    transform 0.2s ease;
+}
+.writing-cta:hover,
+.writing-cta:focus {
+  background-color: rgba(255, 255, 255, 0.17);
+  transform: translateY(-1px);
+}
+
+@media screen and (max-width: 900px) {
+  .writing {
+    padding: 4% 2%;
+  }
+  .writing-cards {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .writing-card {
+    width: 100%;
+    max-width: 100%;
+  }
+}

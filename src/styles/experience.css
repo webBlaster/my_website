@@ -7,6 +7,7 @@
 .experiences h1 {
   font-size: 20px;
   text-align: center;
+  margin: 2rem auto 1.5rem;
 }
 .experiences .experience-list .experience {
   background-color: rgba(43, 43, 43, 0);
@@ -32,4 +33,4 @@
   background-color: black;
   padding: 5px;
   font-size: 0.6rem;
-}/*# sourceMappingURL=experience.css.map */
+} /*# sourceMappingURL=experience.css.map */

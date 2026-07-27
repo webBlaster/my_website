@@ -1,68 +1,138 @@
 .projects {
-  padding: 3%;
+  padding: 3% 4%;
   position: relative;
   z-index: 10;
-  min-height: 100vh;
+  min-height: 170vh;
 }
 .projects h1 {
-  font-size: 20px;
+  font-size: 24px;
   text-align: center;
+  margin: 2rem auto 1.5rem;
 }
 .projects h5 {
   margin-bottom: 20px;
 }
-.projects .project-list .project {
+.project-scroll {
+  position: sticky;
+  top: 0;
+  height: calc(100vh - 5rem);
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  padding: 0 2rem 0 0;
+}
+.project-list {
+  display: flex;
+  gap: 2rem;
+  align-items: stretch;
+  transition: transform 0.35s ease;
+  will-change: transform;
+  padding: 0.25rem 3rem 0.25rem 0.25rem;
+}
+.project {
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
-  background-color: rgba(0, 0, 0, 0.222);
+  background-color: rgba(0, 0, 0, 0.22);
   cursor: pointer;
   color: white;
-  border-radius: 4px;
-  margin: 50px auto;
-  padding: 5%;
-  min-height: 250px;
-  width: 80%;
-  transition: 0.4s;
+  border-radius: 16px;
+  padding: 2rem;
+  min-height: 400px;
+  min-width: 480px;
+  max-width: 540px;
+  flex: 0 0 520px;
+  transition:
+    transform 0.4s ease,
+    background-color 0.3s ease,
+    box-shadow 0.3s ease;
 }
-.projects .project-list .project img {
+.project.active {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.25);
+}
+.project img {
   width: 100%;
+  border-radius: 12px;
+  margin-bottom: 1rem;
 }
-.projects .project-list .project a {
-  font-size: 0.9rem;
+.project a {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.85rem 1.2rem;
   color: #fff;
   text-decoration: none;
+  border-radius: 999px;
+  background-color: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  transition:
+    background-color 0.25s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 }
-.projects .project-list .project .technologies {
+.project a:hover,
+.project a:focus {
+  background-color: rgba(255, 255, 255, 0.16);
+  transform: translateY(-1px);
+  box-shadow: 0 10px 25px rgba(255, 255, 255, 0.08);
+}
+.project .technologies {
   display: flex;
-  cursor: pointer;
-  margin-bottom: 10px;
-  min-width: 50%;
+  flex-wrap: wrap;
+  margin: 1rem 0;
+  gap: 0.5rem;
 }
-.projects .project-list .project .technologies p {
-  margin-right: 2%;
+.project .technologies p {
   border-radius: 2.5px;
-  background-color: black;
-  padding: 5px;
-  font-size: 0.6rem;
+  background-color: rgba(255, 255, 255, 0.08);
+  padding: 6px 8px;
+  font-size: 0.68rem;
 }
-.projects .project-list .project:focus {
+.project:focus {
   outline: none !important;
 }
-.projects .project-list .project:hover {
-  background-color: rgba(0, 0, 0, 0.592);
-  width: 81%;
+.project:hover {
+  background-color: rgba(0, 0, 0, 0.45);
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (max-width: 900px) {
+  .projects {
+    min-height: 220vh;
+    padding: 2.5% 1.5%;
+  }
   .projects h1 {
     font-size: 20px;
+    margin-bottom: 1rem;
+  }
+  .project-scroll {
+    position: sticky;
+    top: 0;
+    height: calc(100vh - 5rem);
+    overflow: hidden;
+    padding: 0 1.25rem 1rem 0;
   }
   .project-list {
-    display: grid;
-    align-items: center;
-    grid-template-columns: 50% 50%;
+    padding: 0.25rem 2rem 0.25rem 0.25rem;
   }
-}/*# sourceMappingURL=projects.css.map */
+  .project-list {
+    flex-direction: row;
+    gap: 1rem;
+  }
+  .project {
+    width: min(90vw, 360px);
+    min-width: min(90vw, 360px);
+    max-width: min(90vw, 360px);
+    padding: 1.5rem;
+    min-height: 350px;
+    flex: 0 0 min(90vw, 360px);
+  }
+  .project img {
+    height: auto;
+    max-height: 220px;
+    object-fit: cover;
+  }
+}
+
+/*# sourceMappingURL=projects.css.map */
